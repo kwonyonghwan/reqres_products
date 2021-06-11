@@ -9,7 +9,7 @@ phases:
     runtime-versions:
       java: corretto8
       docker: 18
-  pre_build:
+  pre_build: 
     commands:
       - echo Logging in to Amazon ECR...
       - echo $IMAGE_REPO_NAME
